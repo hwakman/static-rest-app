@@ -1,0 +1,20 @@
+body {
+  min-height: 100vh;
+  background-color: #999;
+}
+
+.model-screen {
+  top: 0;
+  z-index: 1;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgba($color: black, $alpha: .5);
+}
+
+input {
+  min-width: 400px;
+}
